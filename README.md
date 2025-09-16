@@ -1,4 +1,6 @@
-El ESP32 al iniciarse aguarda durante 5 segundos instrucciones de como recibira las ordenes para el motor, esta configuracion es persistente.
+Para compilar el script se debera usar la opcion: Partition Scheme = Huge APP (3MB No OTA/ 1MB SPIFFS)
+
+El ESP32 al iniciarse aguarda durante 5 segundos en el puerto USB instrucciones de como recibira en lo sucesivo las ordenes para el motor, esta configuracion es persistente.
 
 
 Via USB por un JSON:
@@ -41,3 +43,9 @@ Definir en un archivo motor.json lo siguiente:
 e invocarlo con:
 
 curl -X POST http://172.22.46.68:8080/orden -H "Content-Type: application/json" --data "@motor.json"
+
+Para hacer funcionar el motor 1 por Bluetooth enviar al COM asignado:
+
+{"tipo": "orden","subtipo": "motor","motor": 1,"accion": "adelante","velocidad": 120}
+{"tipo": "orden","subtipo": "motor","motor": 1,"accion": "parar","velocidad": 120}
+{"tipo": "orden","subtipo": "motor","motor": 1,"accion": "atras","velocidad": 120}
