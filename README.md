@@ -4,9 +4,9 @@ Para compilar el script se debera usar la opcion en la ide de Arduino: Tools / P
 
 Los pines del Puente L298N se deberan conectar de esta forma:
 
-Motor 1: ena 33, en1 32, en2 25
+Motor 1: ena pin 33, en1 pin 32, en2 pin 25
 
-Motor 2: enab 26, en3 27, en4 14
+Motor 2: enab pin 26, en3 pin 27, en4 pin 14
 
 ( ver pinout L298N en https://github.com/jtoobe/ESP32_L298N/blob/main/l298n.JPG )
 
