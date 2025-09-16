@@ -1,4 +1,4 @@
-Para compilar el script se debera usar la opcion: Partition Scheme = Huge APP (3MB No OTA/ 1MB SPIFFS)
+Para compilar el script se debera usar la opcion en la ide de Arduino: Tools / Partition Scheme => Huge APP (3MB No OTA/ 1MB SPIFFS)
 
 El ESP32 al iniciarse aguarda durante 5 segundos en el puerto USB instrucciones de como recibira en lo sucesivo las ordenes para el motor, esta configuracion es persistente.
 
