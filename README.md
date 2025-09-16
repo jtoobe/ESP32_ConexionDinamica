@@ -47,5 +47,7 @@ curl -X POST http://[IP del ESP32]:8080/orden -H "Content-Type: application/json
 Para hacer funcionar el motor 1 por Bluetooth enviar al COM asignado:
 
 {"tipo": "orden","subtipo": "motor","motor": 1,"accion": "adelante","velocidad": 120}
+
 {"tipo": "orden","subtipo": "motor","motor": 1,"accion": "parar","velocidad": 120}
+
 {"tipo": "orden","subtipo": "motor","motor": 1,"accion": "atras","velocidad": 120}
