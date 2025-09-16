@@ -24,7 +24,7 @@ Para hacer funcionar el motor 1 por USB enviar:
 
 Para hacer funcionar el motor por WIFI enviar por curl:
 
-curl -X POST http://172.22.46.68:8080/orden -H "Content-Type: application/json" -d "{\"tipo\":\"orden\",\"subtipo\":\"motor\",\"motor\":1,\"accion\":\"parar\",\"velocidad\":120}"
+curl -X POST http://[IP del ESP32]:8080/orden -H "Content-Type: application/json" -d "{\"tipo\":\"orden\",\"subtipo\":\"motor\",\"motor\":1,\"accion\":\"parar\",\"velocidad\":120}"
 
 y se recibira: {"status":"ok"}
 
@@ -42,7 +42,7 @@ Definir en un archivo motor.json lo siguiente:
 
 e invocarlo con:
 
-curl -X POST http://172.22.46.68:8080/orden -H "Content-Type: application/json" --data "@motor.json"
+curl -X POST http://[IP del ESP32]:8080/orden -H "Content-Type: application/json" --data "@motor.json"
 
 Para hacer funcionar el motor 1 por Bluetooth enviar al COM asignado:
 
