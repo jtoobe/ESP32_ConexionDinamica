@@ -6,7 +6,7 @@ Motor 1: ena 33, en1 32, en2 25
 
 Motor 2: enab 26, en3 27, en4 14
 
-( ver diagrama en https://github.com/jtoobe/ESP32_L298N/blob/main/l298n.JPG )
+( ver pinout L298N en https://github.com/jtoobe/ESP32_L298N/blob/main/l298n.JPG )
 
 El ESP32 al iniciarse aguarda durante 5 segundos en el puerto USB instrucciones de como recibira en lo sucesivo las ordenes para el motor, esta configuracion es persistente.
 
