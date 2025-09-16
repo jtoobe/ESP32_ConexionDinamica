@@ -9,7 +9,7 @@ Via USB por un JSON:
 
 Via WIFI por un JSON:
 
-{"tipo": "conexion","modo": "wifi","ssid": "UA-Alumnos","password": "41umn05WLC"}
+{"tipo": "conexion","modo": "wifi","ssid": "xxxxxxxxxx","password": "xxxxxxxxx"}
 
 Via Bluetooth por un JSON:
 
