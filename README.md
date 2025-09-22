@@ -1,6 +1,6 @@
 Programa que sirve para controlar 2 motores de CC via un L298N con un ESP32 al que pueden suministrarsele ordenes por USB, WiFi y Bluetooth.
 
-Ver diagrama de conexiones en "diagrama.jpg"
+Ver diagrama de conexiones en "diagrama.jpg" (https://github.com/jtoobe/ESP32_ConexionDinamica/blob/main/diagrama.JPG)
 
 Para compilar el script se debera usar la opcion en la ide de Arduino: Tools / Partition Scheme => Huge APP (3MB No OTA/ 1MB SPIFFS)
 
