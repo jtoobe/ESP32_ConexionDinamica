@@ -2,7 +2,7 @@ Programa que sirve para controlar 2 motores de CC via un L298N con un ESP32 al q
 
 Ver diagrama de conexiones en "diagrama.jpg" (https://github.com/jtoobe/ESP32_ConexionDinamica/blob/main/diagrama.JPG)
 
-Para el puente IBT_2 reemplazar los archivos por los que se encuentran en el directorio correspondiente.
+Para el puente IBT_2 reemplazar los archivos por los que se encuentran en el directorio correspondiente (ver alli el esquema de conexiones)
 
 Para compilar el script se debera usar la opcion en la ide de Arduino: Tools / Partition Scheme => Huge APP (3MB No OTA/ 1MB SPIFFS)
 
